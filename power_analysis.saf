@@ -1,0 +1,62 @@
+# Copyright (C) 2025  Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Altera and sold by Altera or its authorized distributors.  Please
+# refer to the Altera Software License Subscription Agreements 
+# on the Quartus Prime software download page.
+
+# Signal Activity File Name: "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/power_analysis.saf"
+# Created On: "10/03/2025 18:44:16"
+# Created By: "Version 24.1std.0 Build 1077 03/04/2025 SC Standard Edition"
+# This file was created by the Quartus Prime Power Analyzer.
+
+FORMAT_VERSION 1;
+
+DEFINE_FLAG TOGGLE_RATE_FROM_SIMULATION 0x1;
+DEFINE_FLAG STATIC_PROBABILITY_FROM_SIMULATION 0x2;
+DEFINE_FLAG TOGGLE_RATE_FROM_USER 0x4;
+DEFINE_FLAG STATIC_PROBABILITY_FROM_USER 0x8;
+DEFINE_FLAG TOGGLE_RATE_FROM_USER_DEFAULT 0x10;
+DEFINE_FLAG STATIC_PROBABILITY_FROM_USER_DEFAULT 0x20;
+DEFINE_FLAG TOGGLE_RATE_FROM_VECTORLESS_ESTIMATION 0x40;
+DEFINE_FLAG STATIC_PROBABILITY_FROM_VECTORLESS_ESTIMATION 0x80;
+DEFINE_FLAG TOGGLE_RATE_ASSUMED_ZERO 0x100;
+DEFINE_FLAG TOGGLE_RATE_CLIPPED_TO_MAX 0x200;
+
+BEGIN_OUTPUT_SIGNAL_INFO;
+
+# Output Signal Information Line Format Description:
+
+# <one or more spaces><partial output signal name><spaces>[<flags mask><spaces><toggle rate><spaces><static probability>]<;>
+
+ hard_block:auto_generated_inst;
+ clk 0x120 0 0.5;
+ clk~input 0xc0 0 0.5;
+ clk~inputCLKENA0 0x48 0 0.5;
+ cnt[0] 0xc0 1 0.5;
+ cnt[0]~2 0xc0 1 0.5;
+ cnt[0]~DUPLICATE 0xc0 1 0.5;
+ cnt[1] 0xc0 1 0.5;
+ cnt[1]~0 0xc0 1 0.5;
+ cnt[1]~DUPLICATE 0xc0 1 0.5;
+ cnt[2] 0xc0 1 0.5;
+ cnt[2]~1 0xc0 1 0.5;
+ rst 0xc0 1 0.5;
+ rst~input 0xc0 1 0.5;
+ val[0] 0xc0 1 0.5;
+ val[0]~output 0xc0 1 0.5;
+ val[1] 0xc0 1 0.5;
+ val[1]~output 0xc0 1 0.5;
+ val[2] 0xc0 1 0.5;
+ val[2]~output 0xc0 1 0.5;
+
+END_OUTPUT_SIGNAL_INFO;
+

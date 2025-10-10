@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity RISC_V_CPU is
+	port(clk: in std_logic;
+			rst: in std_logic;
+			val: out unsigned(2 downto 0));
+end entity;
+
+
+architecture ctr of RISC_V_CPU is
+	signal cnt: unsigned(2 downto 0);
+begin
+	COUNT: process(rst, clk)
+	begin
+		if rst='1' then
+			cnt <= "000";
+		elsif clk'event and clk='1' then
+			cnt <= cnt + 1;
+		end if;
+	end process;
+	val <= cnt;
+end architecture;

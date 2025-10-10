@@ -1,0 +1,253 @@
+EDA Netlist Writer report for risc_v_cpu
+Thu Oct  9 22:35:40 2025
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Board-Level Settings
+  6. Board-Level Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++-------------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                                    ;
++---------------------------------------+---------------------------------------+
+; EDA Netlist Writer Status             ; Successful - Thu Oct  9 22:35:40 2025 ;
+; Revision Name                         ; risc_v_cpu                            ;
+; Top-level Entity Name                 ; RISC_V_CPU                            ;
+; Family                                ; Cyclone V                             ;
+; Simulation Files Creation             ; Successful                            ;
+; Board Signal Integrity Files Creation ; Successful                            ;
+; Board Timing Analysis Files Creation  ; Successful                            ;
+; Board Boundary Scan Files Creation    ; Successful                            ;
++---------------------------------------+---------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                  ;
++---------------------------------------------------------------------------------------------------+------------------+
+; Option                                                                                            ; Setting          ;
++---------------------------------------------------------------------------------------------------+------------------+
+; Tool Name                                                                                         ; QuestaSim (VHDL) ;
+; Generate functional simulation netlist                                                            ; On               ;
+; Truncate long hierarchy paths                                                                     ; Off              ;
+; Map illegal HDL characters                                                                        ; Off              ;
+; Flatten buses into individual nodes                                                               ; Off              ;
+; Maintain hierarchy                                                                                ; Off              ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off              ;
+; Enable glitch filtering                                                                           ; Off              ;
+; Do not write top level VHDL entity                                                                ; Off              ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off              ;
+; Architecture name in VHDL output netlist                                                          ; structure        ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off              ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off              ;
++---------------------------------------------------------------------------------------------------+------------------+
+
+
++-----------------------------------------------------------------------------+
+; Simulation Generated Files                                                  ;
++-----------------------------------------------------------------------------+
+; Generated Files                                                             ;
++-----------------------------------------------------------------------------+
+; /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/simulation/questa/risc_v_cpu.vho ;
++-----------------------------------------------------------------------------+
+
+
++-----------------------------------------+
+; Board-Level Settings                    ;
++-------------------------------+---------+
+; Option                        ; Setting ;
++-------------------------------+---------+
+; Board Signal Integrity Format ; HSPICE  ;
+; Board Timing Analysis Format  ; STAMP   ;
+; Board Boundary Scan Format    ; BSDL    ;
++-------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board-Level Generated Files                                                                                                                                     ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                                 ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Signal Integrity                                                                                                                                          ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa22_instruction_0__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_p18_instruction_1__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e10_instruction_2__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_u7_instruction_3__out.sp                                                                    ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f14_instruction_4__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_n9_instruction_5__out.sp                                                                    ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_a5_instruction_6__out.sp                                                                    ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa9_instruction_7__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d12_instruction_8__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa12_instruction_9__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_g21_instruction_10__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d17_instruction_11__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e20_instruction_12__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c21_instruction_13__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e15_instruction_14__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e12_instruction_15__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_h6_instruction_16__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa13_instruction_17__out.sp                                                                 ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_l7_instruction_18__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_r15_instruction_19__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_y11_instruction_20__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c15_instruction_21__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c8_instruction_22__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_t9_instruction_23__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f13_instruction_24__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_w8_instruction_25__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_h10_instruction_26__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa7_instruction_27__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f19_instruction_28__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d22_instruction_29__out.sp                                                                  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_a9_instruction_30__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_r6_instruction_31__out.sp                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_g6_rst_in.sp                                                                                ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_t12_clk_in.sp                                                                               ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/slew_rate_control.lib                                                                           ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_load.lib                                                                                     ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_octrt_calibrated.lib                                                                         ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_octrs_calibrated.lib                                                                         ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/output_delay_control.lib                                                                        ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/lvds_preemphasis_select.lib                                                                     ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_output_load.inc                                                                            ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_ss.inc                                                                                       ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_output.inc                                                                                 ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_oct_rd.inc                                                                                 ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/drive_select_io.lib                                                                             ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_input_load.inc                                                                             ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_oct_load.inc                                                                               ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer.inc                                                                                   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/package.lib                                                                                     ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_load.inc                                                                              ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_ff.inc                                                                                       ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/lvds_vod_select.lib                                                                             ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_octrs.inc                                                                             ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_tt.inc                                                                                       ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_octrt.inc                                                                             ;
+; Board Timing Analysis                                                                                                                                           ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_85c_board_slow.mod  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_85c_board_slow.data ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_0c_board_slow.mod   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_0c_board_slow.data  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_0c_board_fast.mod    ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_0c_board_fast.data   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_85c_board_fast.mod   ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_85c_board_fast.data  ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_board.mod                       ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_board.data                      ;
+; Board Boundary Scan                                                                                                                                             ;
+;     /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/bsd/5CGXFC7C7F23C8_pre.bsd                                                                                 ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+    Info: Processing started: Thu Oct  9 22:35:37 2025
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off risc_v_cpu -c risc_v_cpu
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file risc_v_cpu.vho in folder "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/simulation/questa/" for EDA simulation tool
+Info (199047): Generated files "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_85c_board_slow.mod" and "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_85c_board_slow.data"
+Info (199047): Generated files "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_0c_board_slow.mod" and "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_8_h7_1100mv_0c_board_slow.data"
+Info (199047): Generated files "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_0c_board_fast.mod" and "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_0c_board_fast.data"
+Info (199047): Generated files "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_85c_board_fast.mod" and "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_min_1100mv_85c_board_fast.data"
+Info (199047): Generated files "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_board.mod" and "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/timing/stamp//risc_v_cpu_board.data"
+Warning (199059): Can't generate files for ViewDraw EDA tool -- device family not supported in ViewDraw Flow
+Info (199053): Generated 55 HSPICE Output files for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa22_instruction_0__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_p18_instruction_1__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e10_instruction_2__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_u7_instruction_3__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f14_instruction_4__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_n9_instruction_5__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_a5_instruction_6__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa9_instruction_7__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d12_instruction_8__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa12_instruction_9__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_g21_instruction_10__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d17_instruction_11__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e20_instruction_12__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c21_instruction_13__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e15_instruction_14__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_e12_instruction_15__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_h6_instruction_16__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa13_instruction_17__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_l7_instruction_18__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_r15_instruction_19__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_y11_instruction_20__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c15_instruction_21__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_c8_instruction_22__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_t9_instruction_23__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f13_instruction_24__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_w8_instruction_25__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_h10_instruction_26__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_aa7_instruction_27__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_f19_instruction_28__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_d22_instruction_29__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_a9_instruction_30__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_r6_instruction_31__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_g6_rst_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/5cgxfc7_t12_clk_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/slew_rate_control.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_load.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_octrt_calibrated.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/io_octrs_calibrated.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/output_delay_control.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/lvds_preemphasis_select.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_output_load.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_ss.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_output.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_oct_rd.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/drive_select_io.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_input_load.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/lvds_oct_load.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/package.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_load.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_ff.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/lvds_vod_select.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_octrs.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/lib/cv_tt.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/hspice/cir/io_buffer_octrt.inc for board level analysis
+Info: TOTAL BSCAN REGISTERS IS 496
+Info: TOTAL IO PAD COUNT IS 486
+Info: CYCLONE_V_5CGXFC7C7F23 has 255 JTAG SEQUENCE AVAILABLE
+Info (199065): Generated Boundary-Scan Description Language output file /home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/board/bsd/5CGXFC7C7F23C8_pre.bsd for board-level analysis
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 686 megabytes
+    Info: Processing ended: Thu Oct  9 22:35:40 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

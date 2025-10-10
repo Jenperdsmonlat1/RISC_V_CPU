@@ -7,13 +7,13 @@ entity Program_Counter is
 	port(clk: in std_logic;
 			rst: in std_logic;
 			load: in std_logic;
-			next_pc: in unsigned(11 downto 0);
-			pc_out: out unsigned(11 downto 0));
+			next_pc: in unsigned(31 downto 0);
+			pc_out: out unsigned(31 downto 0));
 end entity;
 
 
 architecture pc of Program_Counter is
-	signal pc_reg: unsigned(11 downto 0) := (others => '0');
+	signal pc_reg: unsigned(31 downto 0) := (others => '0');
 begin
 	process(clk, rst)
 	begin
