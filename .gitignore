@@ -1,0 +1,77 @@
+# === Dossiers générés automatiquement ===
+board/
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+timing_reports/
+__temp/
+
+# === Fichiers générés par Quartus ===
+*.rpt
+*.summary
+*.log
+*.smsg
+*.jdi
+*.qws
+*.bak
+*.cmp
+*.qdf
+*.qar
+*.qdz
+*.fsf
+*.pof
+*.sof
+*.jam
+*.jic
+*.jbc
+*.csv
+*.tcl.bak
+
+# === Fichiers de simulation temporaires ===
+work/
+transcript
+vsim.wlf
+*.wlf
+*.do
+*.vcd
+
+# === Fichiers système ou éditeur ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.user
+*.zip
+*.tar
+*.7z
+*.bak
+
+# === Cache Quartus interne ===
+*.sld
+*.qip
+*.sip
+
+# === Build artifacts spécifiques (selon les versions Quartus) ===
+*.sta.rpt
+*.fit.rpt
+*.asm.rpt
+*.map.rpt
+*.eqn
+*.pin
+*.fit
+*.sta
+*.vho
+
+# === OS & IDE ===
+.vscode/
+.idea/
+*.log~
+
+# === Générés par ModelSim / autres simulateurs ===
+modelsim.ini
+vsim.dbg
+modelsim.ini.bak
+rtl_work/
