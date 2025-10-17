@@ -3,24 +3,31 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 
-entity Instruction_Memory is
+entity instruction_memory is
 	port(
-		reset: in std_logic;
+		clk: in std_logic;
+		rst: in std_logic;
 		pc_address: in unsigned(11 downto 0);
 		d_out: out std_logic_vector(31 downto 0));
 end entity;
 
-architecture IM of Instruction_Memory is
+architecture IM of instruction_memory is
 	type t_register is array(0 to 4095) of std_logic_vector(31 downto 0);
-	signal memory: t_register := (others => (others => '0'));
-
+	signal memory: t_register := (
+		0  => x"00000013",
+	    1  => x"00100093",
+    	2  => x"00200113",
+	    3  => x"00308193",
+		others => (others => '0'));
 begin
-	process(reset, pc_address)
+	process(clk, rst)
 	begin
-		if reset='1' then
+		if rst='1' then
 			d_out <= (others => '0');
 		else
-			d_out <= memory(to_integer(pc_address));
+			if rising_edge(clk) then
+				d_out <= memory(to_integer(pc_address(11 downto 2)));
+			end if;
 		end if;
 	end process;
 end architecture;

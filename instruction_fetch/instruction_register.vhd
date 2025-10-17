@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 
-entity Instruction_Register is
+entity instruction_register is
 	port(
 		instruction: in std_logic_vector(31 downto 0);
 		opcode: out std_logic_vector(6 downto 0);
@@ -14,7 +14,7 @@ entity Instruction_Register is
 		funct7: out std_logic_vector(6 downto 0));
 end entity;
 
-architecture IR of Instruction_Register is
+architecture IR of instruction_register is
 begin
 	opcode <= instruction(6 downto 0);
 	rd <= instruction(11 downto 7);

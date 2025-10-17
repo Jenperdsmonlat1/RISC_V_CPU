@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 use work.opcode_constants.all;
 
 
-entity Opcode_Decoder is
+entity opcode_decoder is
 	port(
 		opcode: in std_logic_vector(6 downto 0);
 		funct3: in std_logic_vector(2 downto 0);

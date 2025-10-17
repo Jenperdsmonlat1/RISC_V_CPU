@@ -14,8 +14,8 @@
 # on the Quartus Prime software download page.
 
 # Signal Activity File Name: "/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/power_analysis.saf"
-# Created On: "10/03/2025 18:44:16"
-# Created By: "Version 24.1std.0 Build 1077 03/04/2025 SC Standard Edition"
+# Created On: "10/17/2025 10:49:11"
+# Created By: "Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition"
 # This file was created by the Quartus Prime Power Analyzer.
 
 FORMAT_VERSION 1;
@@ -39,24 +39,71 @@ BEGIN_OUTPUT_SIGNAL_INFO;
 
  hard_block:auto_generated_inst;
  clk 0x120 0 0.5;
- clk~input 0xc0 0 0.5;
- clk~inputCLKENA0 0x48 0 0.5;
- cnt[0] 0xc0 1 0.5;
- cnt[0]~2 0xc0 1 0.5;
- cnt[0]~DUPLICATE 0xc0 1 0.5;
- cnt[1] 0xc0 1 0.5;
- cnt[1]~0 0xc0 1 0.5;
- cnt[1]~DUPLICATE 0xc0 1 0.5;
- cnt[2] 0xc0 1 0.5;
- cnt[2]~1 0xc0 1 0.5;
- rst 0xc0 1 0.5;
- rst~input 0xc0 1 0.5;
- val[0] 0xc0 1 0.5;
- val[0]~output 0xc0 1 0.5;
- val[1] 0xc0 1 0.5;
- val[1]~output 0xc0 1 0.5;
- val[2] 0xc0 1 0.5;
- val[2]~output 0xc0 1 0.5;
+ instruction[0] 0xc0 0 0;
+ instruction[0]~output 0xc0 0 0;
+ instruction[1] 0xc0 0 0;
+ instruction[1]~output 0xc0 0 0;
+ instruction[2] 0xc0 0 0;
+ instruction[2]~output 0xc0 0 0;
+ instruction[3] 0xc0 0 0;
+ instruction[3]~output 0xc0 0 0;
+ instruction[4] 0xc0 0 0;
+ instruction[4]~output 0xc0 0 0;
+ instruction[5] 0xc0 0 0;
+ instruction[5]~output 0xc0 0 0;
+ instruction[6] 0xc0 0 0;
+ instruction[6]~output 0xc0 0 0;
+ instruction[7] 0xc0 0 0;
+ instruction[7]~output 0xc0 0 0;
+ instruction[8] 0xc0 0 0;
+ instruction[8]~output 0xc0 0 0;
+ instruction[9] 0xc0 0 0;
+ instruction[9]~output 0xc0 0 0;
+ instruction[10] 0xc0 0 0;
+ instruction[10]~output 0xc0 0 0;
+ instruction[11] 0xc0 0 0;
+ instruction[11]~output 0xc0 0 0;
+ instruction[12] 0xc0 0 0;
+ instruction[12]~output 0xc0 0 0;
+ instruction[13] 0xc0 0 0;
+ instruction[13]~output 0xc0 0 0;
+ instruction[14] 0xc0 0 0;
+ instruction[14]~output 0xc0 0 0;
+ instruction[15] 0xc0 0 0;
+ instruction[15]~output 0xc0 0 0;
+ instruction[16] 0xc0 0 0;
+ instruction[16]~output 0xc0 0 0;
+ instruction[17] 0xc0 0 0;
+ instruction[17]~output 0xc0 0 0;
+ instruction[18] 0xc0 0 0;
+ instruction[18]~output 0xc0 0 0;
+ instruction[19] 0xc0 0 0;
+ instruction[19]~output 0xc0 0 0;
+ instruction[20] 0xc0 0 0;
+ instruction[20]~output 0xc0 0 0;
+ instruction[21] 0xc0 0 0;
+ instruction[21]~output 0xc0 0 0;
+ instruction[22] 0xc0 0 0;
+ instruction[22]~output 0xc0 0 0;
+ instruction[23] 0xc0 0 0;
+ instruction[23]~output 0xc0 0 0;
+ instruction[24] 0xc0 0 0;
+ instruction[24]~output 0xc0 0 0;
+ instruction[25] 0xc0 0 0;
+ instruction[25]~output 0xc0 0 0;
+ instruction[26] 0xc0 0 0;
+ instruction[26]~output 0xc0 0 0;
+ instruction[27] 0xc0 0 0;
+ instruction[27]~output 0xc0 0 0;
+ instruction[28] 0xc0 0 0;
+ instruction[28]~output 0xc0 0 0;
+ instruction[29] 0xc0 0 0;
+ instruction[29]~output 0xc0 0 0;
+ instruction[30] 0xc0 0 0;
+ instruction[30]~output 0xc0 0 0;
+ instruction[31] 0xc0 0 0;
+ instruction[31]~output 0xc0 0 0;
+ rst 0x120 0 0.5;
 
 END_OUTPUT_SIGNAL_INFO;
 

@@ -21,7 +21,7 @@ architecture ctr of RISC_V_CPU is
 	signal rs2: std_logic_vector(4 downto 0) := (others => '0');
 	signal funct7: std_logic_vector(6 downto 0) := (others => '0');
 	
-	component Program_Counter
+	component program_counter
 		port(
 			clk: in std_logic;
 			rst: in std_logic;
@@ -30,14 +30,14 @@ architecture ctr of RISC_V_CPU is
 			pc_out: out unsigned(11 downto 0));
 	end component;
 			
-	component Instruction_Memory
+	component instruction_memory
 		port(
 			reset: in std_logic;
 			pc_address: in unsigned(11 downto 0);
 			d_out: out std_logic_vector(31 downto 0));
 	end component;
 	
-	component Instruction_Register
+	component instruction_register
 		port(
 			instruction: in std_logic_vector(31 downto 0);
 			opcode: out std_logic_vector(6 downto 0);
@@ -49,7 +49,7 @@ architecture ctr of RISC_V_CPU is
 	end component;
 
 begin
-	pc_counter: Program_Counter
+	pc_counter: program_counter
 		port map(
 			clk => clk,
 			rst => rst,
@@ -58,7 +58,7 @@ begin
 			pc_out => pc_out
 		);
 		
-	im_register: Instruction_Memory
+	im_register: instruction_memory
 		port map(
 			reset => rst,
 			pc_address => pc_out,
@@ -67,7 +67,7 @@ begin
 
 	instruction <= output_instruction;
 	
-	ir_register: Instruction_Register
+	ir_register: instruction_register
 		port map(
 			instruction => output_instruction,
 			opcode => opcode,

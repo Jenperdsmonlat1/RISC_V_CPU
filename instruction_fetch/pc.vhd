@@ -3,7 +3,7 @@ use ieee.numeric_std.all;
 use ieee.std_logic_1164.all;
 
 
-entity Program_Counter is
+entity program_counter is
 	port(clk: in std_logic;
 			rst: in std_logic;
 			load: in std_logic;
@@ -12,7 +12,7 @@ entity Program_Counter is
 end entity;
 
 
-architecture pc of Program_Counter is
+architecture pc of program_counter is
 	signal pc_reg: unsigned(11 downto 0) := (others => '0');
 begin
 	process(clk, rst)
