@@ -5,6 +5,8 @@ use ieee.numeric_std.all;
 
 entity instruction_register is
 	port(
+		clk: in std_logic;
+		rst: in std_logic;
 		instruction: in std_logic_vector(31 downto 0);
 		opcode: out std_logic_vector(6 downto 0);
 		rd: out std_logic_vector(4 downto 0);
@@ -16,10 +18,22 @@ end entity;
 
 architecture IR of instruction_register is
 begin
-	opcode <= instruction(6 downto 0);
-	rd <= instruction(11 downto 7);
-	funct3 <= instruction(14 downto 12);
-	rs1 <= instruction(19 downto 15);
-	rs2 <= instruction(24 downto 20);
-	funct7 <= instruction(31 downto 25);
+	process(clk, rst)
+	begin
+		if rst='1' then
+			opcode <= (others => '0');
+			rd <= (others => '0');
+			funct3 <= (others => '0');
+			rs1 <= (others => '0');
+			rs2 <= (others => '0');
+			funct7 <= (others => '0');
+		elsif rising_edge(clk) then
+			opcode <= instruction(6 downto 0);
+			rd <= instruction(11 downto 7);
+			funct3 <= instruction(14 downto 12);
+			rs1 <= instruction(19 downto 15);
+			rs2 <= instruction(24 downto 20);
+			funct7 <= instruction(31 downto 25);
+		end if;
+	end process;
 end architecture;

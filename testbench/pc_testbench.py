@@ -50,5 +50,4 @@ async def pc_test(dut):
     dut.rst.value = 0
 
     assert int(dut.pc_out.value) == 0, f"[RESET]: Expected: 0, obtenu: {int(dut.pc_out.value)}"
-
     cocotb.log.info("Test réussis.")
