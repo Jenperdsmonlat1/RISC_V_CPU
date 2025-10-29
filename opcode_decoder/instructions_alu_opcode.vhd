@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 
-package instructions_opcode_list_alu is
+package instructions_opcode_list_RV32I is
 
 	constant ADD_INSTR: std_logic_vector(4 downto 0) := "00001";
 	constant SUB_INSTR: std_logic_vector(4 downto 0) := "00010";
