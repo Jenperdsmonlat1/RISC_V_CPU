@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1761854799" />
+    <testcase name="ir_test" classname="od_testbench" file="/home/rayane/Desktop/risc_v_cpu/RISC_V_CPU/testbench/od_testbench.py" lineno="32" time="0.002660989761352539" sim_time_ns="155.0" ratio_time="58249.0027775289" />
+  </testsuite>
+</testsuites>

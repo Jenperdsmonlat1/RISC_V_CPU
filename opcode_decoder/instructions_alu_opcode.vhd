@@ -32,4 +32,4 @@ package instructions_opcode_list_RV32I is
 	constant DIVU_INSTR: std_logic_vector(4 downto 0) := "11001";
 	constant REM_INSTR: std_logic_vector(4 downto 0) := "11010";
 	constant REMU_INSTR: std_logic_vector(4 downto 0) := "11011";
-end package;
+end package instructions_opcode_list_RV32I;
